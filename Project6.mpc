@@ -1,0 +1,27 @@
+// $Id: Project6$
+
+project (Project6) {
+  specific(make){
+    compile_flags += -std=c++11
+    compile_flags += -lpthread
+  }
+  exename = Project6
+  install = .
+
+  Source_Files {
+    driver.cpp
+    time_stamp.cpp
+    Mailbox.cpp
+    Sleep.cpp
+    Random.cpp
+    Thread.cpp
+    Current_Time.cpp
+    Neighbor.cpp
+  }
+
+  Template_Files {
+    Queue.cpp
+    Array.cpp
+    Base_array.cpp
+  }
+}
