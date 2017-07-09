@@ -1,6 +1,5 @@
-# ECE408-Project6-Final-
+# Multi-Threaded-Hot-Potato-Routing-Network
 
-In order to run the code you must use this as your parameters:
-time ./Project6 -i filename -o data.txt -t 30 1 1 10
+This was a final project in an operating systems class.  I was in a group of 4 so this isn't all my code.  The project was very hard, and time-consuming (and maddening tracking down some bugs).  We had to parse a .gl file, which would give us the number of nodes, and then the "edges" or what nodes were connected together.  Then we had to send out status messages, and within those messages needed to be destination, source, last node touched, etc.  At any given time the user needed to be able to push 'Ctrl-C' and get a menu to see all the nodes and what they're connected to, and other information.  It got very nasty and confusing very quickly; another one of those projects intended to push students to their limits and see what they churn out, in my opinion.  Our code doesn't do all of what was wanted but we still got a decent grade on the project (all projects really, this was 1 of 6 projects we had to do).</br></br> 
 
-I will be making a bat/sh file so we do not have to remember this command.
+Since this isn't all my code, I don't really like it, not my style.  I'm just posting firstly because we worked too hard on it not to, and I will probably eventually go back and take out bits of code I want (my timestamp function I was proud of, the thread class, the signal handler, and that's about it...).  
